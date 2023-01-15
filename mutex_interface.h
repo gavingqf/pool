@@ -11,6 +11,7 @@ public:
 	virtual void unlock() = 0;
 };
 
+// CNonMutex is not a real mutex.
 class CNonMutex : public IGNMutex {
 public:
 	CNonMutex() {}
